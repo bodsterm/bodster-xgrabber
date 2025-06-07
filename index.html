@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bodster's XGrabber</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bodster's XGrabber</h1>
+    </header>
+    <main>
+        <div id="input-container">
+            <input type="text" id="gamertag-input" placeholder="Input gamertag">
+            <button id="search-button" disabled>Search</button>
+        </div>
+        <div id="loading-container" class="hidden">
+            <img src="assets/loading.gif" alt="Loading..." id="loading-animation">
+            <p id="loading-text">Loading gamertag...</p>
+        </div>
+        <div id="results-container" class="hidden">
+            <ul id="results-list">
+                <!-- Results will be populated by JavaScript -->
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <p>shoutout bodster &copy; 2025</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
